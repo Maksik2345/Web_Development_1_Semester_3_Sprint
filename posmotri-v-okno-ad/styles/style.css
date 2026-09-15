@@ -85,11 +85,13 @@ ol {
 .content__list-container {
   block-size: 298px;
   overflow-y: auto;
+  position: relative;
 }
 
 .result__video-container {
   inline-size: 100%;
   block-size: 386px;
+  position: relative;
 }
 
 .result__video {
@@ -120,6 +122,7 @@ ol {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  min-inline-size: 0;
 }
 
 .search-form__fieldset-title {
