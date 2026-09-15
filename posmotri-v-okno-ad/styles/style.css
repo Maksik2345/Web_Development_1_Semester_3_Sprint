@@ -229,6 +229,44 @@ ol {
   opacity: 1;
 }
 
+.search-form__label:has(.search-form__checkbox:focus-visible) {
+  outline: 1px solid #fff;
+}
+
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
+}
+
+.button {
+  border: 1px solid #fff;
+  padding-block: 6px;
+  color: #fff;
+  font-family: "Fira Sans Condensed";
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
+
+.search-form__submit-button {
+  inline-size: 194px;
+}
+
+.more-button {
+  inline-size: 100%;
 }
